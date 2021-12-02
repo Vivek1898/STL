@@ -1,5 +1,1 @@
-10
-B
-100
-Book15
-17
+Today is a rainy day
