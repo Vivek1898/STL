@@ -1,0 +1,32 @@
+1.sequence containers-
+vector 
+list--DLL
+dq
+arr
+forward_list--sll
+
+2.container adapter--diff interface
+qu
+pq
+stack
+
+3.assosiative 
+
+set
+multiset
+map
+multimap
+
+4.unordered ass containers
+unorder set
+unorder multiset 
+unorder map
+unorder multimap
+
+Iterators
+
+Input-read
+output-write also fwd
+forward --read and write in fwd dirn
+bidirectional--both dirn
+random acess --jumps to any element
