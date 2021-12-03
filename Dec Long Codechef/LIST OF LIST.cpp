@@ -59,6 +59,7 @@ for (int i = 1; i < n; ++i)
         continue;
        
       }
+      //no elements are same
        if(mx==1){
          cout<<-1<<endl;
          continue;
@@ -76,12 +77,5 @@ cout<<ans<<endl;
       
  }
 
- 
-
-
-  
-
-   
-  
    return 0;
 }

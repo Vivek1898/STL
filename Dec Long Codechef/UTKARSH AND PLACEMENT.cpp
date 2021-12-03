@@ -25,61 +25,31 @@ void init_code(){
 int main() {
    init_code();
    int t = 1;
-
+   char first ,second,third;
+   char x,y;
+   int op1=0,op2=0;
 
    cin >> t;
    while(t--){
+         cin>>first>>second>>third;
+        cin>>x>>y;
 
-      int n;
-      cin>>n;
-      int v[n];
-    for (int i = 0; i < n; ++i)
-      {
-       cin>>v[i];
-      }  
-int count=1;
- int mx = 1;
-   
-sort(v,v+n);
+      if(first==x) op1=3;
+  if(second==x) op1=2;
+  if(third==x)op1=1;
 
+  if(first==y) op2=3;
+  if(second==y) op2=2;
+  if(third==y)op2=1;
 
-for (int i = 1; i < n; ++i)
-{
-  if(v[i]==v[i-1])
-  {
-   count++;
-   mx=max(mx,count);
-  }
-  else{
-   count=1;
-  }
+if(op1>op2){
+   cout<<x<<endl;
+
+}else{
+   cout<<y<<endl;
 }
- if(n==mx){
-        cout<<0<<endl;
-        continue;
-       
-      }
-       if(mx==1){
-         cout<<-1<<endl;
-         continue;
-         
-      }
 
-
-
-     
-
-int ans=n-mx+1;
-
-cout<<ans<<endl;
- 
-      
  }
-
- 
-
-
-  
 
    
   
