@@ -22,9 +22,9 @@ void init_code(){
     freopen("output.txt", "w", stdout);
     #endif 
 }
- 
-int main() {
    init_code();
+int main() {
+ 
    int t = 1;
 
 
