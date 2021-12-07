@@ -1,4 +1,5 @@
 3
-apple juice
-mango juice
-banana juice
+92 022
+82 12
+77 13
+2 false numeric

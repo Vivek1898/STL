@@ -21,7 +21,7 @@ int main(){
   char s[180]="Today is a rainy day";
   //Create new array copies first token and return base adress of that array
  
-char *p=strtok(s," ");
+char *p=strtok(s,"");
 
 cout<<p<<endl;
 //For all tokens

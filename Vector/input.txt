@@ -1,0 +1,5 @@
+4
+Audi 1 2
+NewBmw 2 2
+Safari 1 0
+Suzuki 0 1
